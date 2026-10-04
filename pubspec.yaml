@@ -1,0 +1,19 @@
+name: mutation_queue
+description: >-
+  Offline-first mutation queue for Dart and Flutter: enqueue writes that
+  persist before returning, drain them FIFO when connectivity returns,
+  retry failures with a per-item attempt limit, and park anything that
+  exhausts its attempts as dead-letter — never silently dropped, never
+  blocking the rest of the queue. Storage and delivery are yours; the
+  coordination is the package's.
+version: 0.1.0
+repository: https://github.com/hossam1244/mutation_queue
+issue_tracker: https://github.com/hossam1244/mutation_queue/issues
+topics: [offline-first, queue, sync, flutter, dart]
+
+environment:
+  sdk: ^3.0.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.25.0

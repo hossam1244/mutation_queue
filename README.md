@@ -1,5 +1,7 @@
 # mutation_queue
 
+[![pub.dev](https://img.shields.io/pub/v/mutation_queue.svg)](https://pub.dev/packages/mutation_queue)
+
 **Offline-first mutation queue for Dart & Flutter.**
 
 Field crews work in basements, on ships, on remote sites — the network is gone
@@ -10,6 +12,13 @@ exhausts its budget.
 
 [![CI](https://github.com/hossam1244/mutation_queue/actions/workflows/ci.yml/badge.svg)](https://github.com/hossam1244/mutation_queue/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+## Install
+
+```yaml
+dependencies:
+  mutation_queue: ^0.1.0
+```
 
 ## Why
 
